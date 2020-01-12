@@ -5,13 +5,13 @@ body {
 .content {
     position: relative;
     border: transparent 0.1em solid;
-    height: 500px;
+    height: 550px;
     width: 1000px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-left: 170px;
     background-color: white;
     border-radius: 60px;
-    box-shadow: 0px 17px 20px -20px black;    
+    box-shadow: 0px 47px 105px -28px rgba(0,0,0,0.39);  
 }
 
 .logo {
@@ -38,7 +38,7 @@ li {
 
  .content__right-img {
     position: absolute;
-    top: -60px;
+    top: -120px;
     left: 550px;
     width: 500px;
     display: block;
@@ -46,11 +46,30 @@ li {
 }
 
 
-.content__left {
+.content__left-top {
     position: absolute;
-    top: 150px;
+    top: 112px;
     left: 150px;
 } 
+
+.btn { 
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px 8px;
+    background-color:#97d534;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 28px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(#000000, .2);
+}
 
 .content__left-h1 {
     margin: 0;
@@ -70,4 +89,34 @@ li {
     margin: 0;
     padding: 0;
     width: 250px;
+}
+
+.content__left-bottom {
+    position: absolute;
+    top: 370px;
+    left: 145px;
+}
+
+.box {
+    float: left;
+    width: 250px;
+    height: 130px;
+    margin: 5px;
+}
+
+
+
+h5 {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.paragraphe__left {
+    margin: 0;
+    padding: 0;
+}
+
+.paragraphe__right {
+    margin: 0;
+    padding: 0;
 }
