@@ -32,10 +32,45 @@ li {
 }
 
 /* .content__right-img {
+.content__right {
+    width: 50%;
     position: absolute;
+}
+
+ .content__right-img {
+    position: absolute;
+    top: -60px;
+    left: 550px;
     width: 500px;
     display: block;
     z-index: 5;
     margin-top: -60px;
     margin-left: 549px;
 } */
+
+
+.content__left {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+} 
+
+.content__left-h1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: -5px;
+    width: 250px;
+}
+
+.content__left-h3 {
+    position: relative;
+
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
