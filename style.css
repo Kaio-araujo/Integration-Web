@@ -3,6 +3,7 @@ body {
 }
 
 .content {
+    position: relative;
     border: transparent 0.1em solid;
     height: 500px;
     width: 1000px;
@@ -11,5 +12,13 @@ body {
     background-color: white;
     border-radius: 60px;
     box-shadow: 0px 17px 20px -20px black;    
-    
+}
+
+.content__right-img {
+    position: absolute;
+    width: 500px;
+    display: block;
+    z-index: 1;
+    margin-top: -60px;
+    margin-left: 549px;
 }
