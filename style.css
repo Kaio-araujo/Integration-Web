@@ -31,7 +31,6 @@ li {
     width: 8%;
 }
 
-/* .content__right-img {
 .content__right {
     width: 50%;
     position: absolute;
@@ -44,9 +43,7 @@ li {
     width: 500px;
     display: block;
     z-index: 5;
-    margin-top: -60px;
-    margin-left: 549px;
-} */
+}
 
 
 .content__left {
