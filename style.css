@@ -1,3 +1,9 @@
 body {
     background-image: linear-gradient(to right, #a5d87c, #80db74);
 }
+
+.content {
+    border: black 0.1em solid;
+    height: 500px;
+    width: 1000px;
+}
