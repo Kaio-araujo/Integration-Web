@@ -26,6 +26,34 @@ body {
     display: flex;
 }
 
+.side__bar {
+    background-color: chartreuse;
+    position: absolute;
+    margin-left: 25px;
+    height: 85%;
+    width: 3%;
+}
+
+.top__right {
+    position: absolute;
+    z-index: 6;
+    width: 45px;
+    height: 45px;
+    background-color: chartreuse;
+    margin-left: 920px;
+    margin-top: -20px;
+}
+
+.bottom__right {
+    position: absolute;
+    z-index: 7;
+    width: 75px;
+    height: 40px;
+    background-color: chartreuse;
+    margin-left: 890px;
+    margin-top: 422px;
+}
+
 li {
     display: block;
     width: 8%;
